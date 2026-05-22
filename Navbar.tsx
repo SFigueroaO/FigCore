@@ -3,12 +3,12 @@ import React from "react";
 export default function Navbar() {
   return (
     <div className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#0b1f33]/92 shadow-sm shadow-black/10 backdrop-blur-xl">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-6 md:px-8">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-7 md:px-8">
         <a href="#inicio" className="group block">
           <img
             src="/figcore-logo.png"
             alt="FigCore"
-            className="h-16 w-auto max-w-[230px] object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+            className="h-24 w-auto max-w-[360px] object-contain transition-transform duration-300 group-hover:scale-[1.02]"
           />
         </a>
 
