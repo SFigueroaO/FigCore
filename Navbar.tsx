@@ -2,40 +2,34 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <div className="fixed inset-x-0 top-0 z-50 border-b border-white/20 bg-[#f4f6f6]/80 backdrop-blur-xl">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
-        <a href="#inicio" className="group flex items-center gap-3">
-          <span className="grid h-10 w-10 place-items-center rounded-sm bg-[#173f46] text-sm font-black tracking-tight text-white transition-transform duration-300 group-hover:rotate-3">
-            FC
-          </span>
-          <span className="flex flex-col leading-none">
-            <span className="text-base font-black uppercase tracking-[0.18em] text-[#173f46]">
-              FigCore
-            </span>
-            <span className="mt-1 text-[10px] font-semibold uppercase tracking-[0.24em] text-[#d9863d]">
-              Industrial
-            </span>
-          </span>
+    <div className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#0b1f33]/92 shadow-sm shadow-black/10 backdrop-blur-xl">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-6 md:px-8">
+        <a href="#inicio" className="group block">
+          <img
+            src="/figcore-logo.png"
+            alt="FigCore"
+            className="h-16 w-auto max-w-[230px] object-contain transition-transform duration-300 group-hover:scale-[1.02]"
+          />
         </a>
 
-        <div className="hidden items-center gap-8 text-sm font-medium text-[#46555a] md:flex">
-          <a className="transition-colors hover:text-[#173f46]" href="#servicios">
+        <div className="hidden items-center gap-10 text-lg font-semibold text-white/75 md:flex">
+          <a className="transition-colors hover:text-[#f28c28]" href="#servicios">
             Servicios
           </a>
-          <a className="transition-colors hover:text-[#173f46]" href="#nosotros">
+          <a className="transition-colors hover:text-[#f28c28]" href="#nosotros">
             Nosotros
           </a>
-          <a className="transition-colors hover:text-[#173f46]" href="#galeria">
+          <a className="transition-colors hover:text-[#f28c28]" href="#galeria">
             Galeria
           </a>
-          <a className="transition-colors hover:text-[#173f46]" href="#contacto">
+          <a className="transition-colors hover:text-[#f28c28]" href="#contacto">
             Contacto
           </a>
         </div>
 
         <a
           href="#contacto"
-          className="rounded-sm bg-[#173f46] px-5 py-3 text-xs font-bold uppercase tracking-[0.18em] text-white shadow-lg shadow-[#173f46]/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#0f2f35]"
+          className="rounded-sm bg-[#eef2f1] px-8 py-4 text-base font-bold uppercase tracking-[0.18em] text-[#0b1f33] shadow-lg shadow-black/10 transition-all duration-300 hover:-translate-y-0.5 hover:bg-white"
         >
           Cotizar
         </a>
